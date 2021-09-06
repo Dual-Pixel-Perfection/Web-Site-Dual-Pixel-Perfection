@@ -1,20 +1,21 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
+
+import { Main } from '../components/Main';
 import { SideBar } from '../components/SideBar'
-import styles from '../styles/Home.module.css'
+import {Container} from '../styles/pages';
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <Container>
       <Head>
         <title>Dual Pixel Perfection Studio</title>
-        
       </Head>
       
-      <SideBar/>
+      <SideBar />
+      <Main />
 
-    </div>
+    </Container>
   )
 }
 
