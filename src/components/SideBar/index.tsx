@@ -2,19 +2,28 @@ import Image from 'next/image';
 import React from 'react';
 
 import { Container, Navigation, SideBars } from './styles';
-import Logo from '../../../public/assets/logo.svg';
+import Logo from '../../../public/assets/logo.png';
 
 export const SideBar: React.FC = () => {
   return (
     <SideBars>
       <Container>
-        <Image src={Logo} alt="Dual Pixel Perfection" height={95} />
+        <Image
+          src={Logo} alt="Dual Pixel Perfection"
+          width={160}
+          height={90}
+        />
 
         <Navigation>
-          <a>JOGOS</a>
-          <a>SOBRE NOS</a>
-          <a>CONTADO</a>
-          <a href="https://discord.gg/dmA5uY7d" >DISCORD</a>
+          <li>
+            <a>JOGOS</a>
+          </li>
+          <li>
+            <a>SOBRE NOS</a>
+          </li>
+          <li>
+            <a>LOJA</a>
+          </li>
         </Navigation>
       </Container>
     </SideBars>
