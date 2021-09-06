@@ -58,3 +58,19 @@ export const Navigation = styled.div`
      opacity: 1;
    }
 `;
+
+export const SocialMedia = styled.div`
+  display: flex;
+  align-items: center;
+  height: 90px;
+
+  li {
+    padding: 1rem;
+    list-style: none;
+    transition: 0.3s;
+  }
+
+  li:hover {
+    padding-bottom: 1.5rem;
+  }
+`;
