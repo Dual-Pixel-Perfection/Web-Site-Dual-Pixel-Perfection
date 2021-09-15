@@ -24,7 +24,7 @@ export const SideBar: React.FC = () => {
             <a>JOGOS</a>
           </li>
           <li>
-            <a>SOBRE NOS</a>
+            <a>SOBRE</a>
           </li>
           <li>
             <a>LOJA</a>

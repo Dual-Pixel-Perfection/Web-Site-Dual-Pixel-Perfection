@@ -25,7 +25,7 @@ export const Navigation = styled.div`
   li {
     list-style: none;
     position: relative;
-    margin-left: 80px;
+    margin-left: 60px;
   }
 
   a {
@@ -65,7 +65,7 @@ export const SocialMedia = styled.div`
   height: 90px;
 
   li {
-    padding: 1rem;
+    margin-left: 1rem;
     list-style: none;
     transition: 0.3s;
   }
