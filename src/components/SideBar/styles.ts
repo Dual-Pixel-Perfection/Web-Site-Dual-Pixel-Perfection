@@ -25,7 +25,7 @@ export const Navigation = styled.div`
   li {
     list-style: none;
     position: relative;
-    margin-left: 80px;
+    margin-left: 60px;
   }
 
   a {
@@ -57,4 +57,20 @@ export const Navigation = styled.div`
    a:hover:after {
      opacity: 1;
    }
+`;
+
+export const SocialMedia = styled.div`
+  display: flex;
+  align-items: center;
+  height: 90px;
+
+  li {
+    margin-left: 1rem;
+    list-style: none;
+    transition: 0.3s;
+  }
+
+  li:hover {
+    padding-bottom: 1.5rem;
+  }
 `;
