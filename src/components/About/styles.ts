@@ -25,24 +25,31 @@ export const Main = styled.div`
   grid-template-columns: 1fr 1.5fr;
   gap: 7rem;
   align-items: center;
-  margin: 5rem auto;
+  margin: 3rem auto;
 `;
 
 export const Description = styled.aside`
+  div {
+    padding: 0 2rem;
+  }
   h2 {
     color: #fff;
     text-align: center;
+    border-bottom: 5px solid var(--blue-dark-4);
+    padding: 0 1rem;
   }
 
   p {
+    font-size: 1.15rem;
     color: var(--gray);
+    text-align: justify;
   }
 `;
 
 export const Illustrations = styled.aside`
   div {
-    width: 700px;
-    height: 400px;
+    width: 50rem;
+    height: 28rem;
     background: var(--gray);
     box-shadow: 8px 10px 10px 0 #000;
   }

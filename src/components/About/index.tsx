@@ -13,14 +13,16 @@ export const About: React.FC  = () => {
       
       <Main>
         <Description>
-          <h2>Descrição</h2>
+          <div>
+            <h2>Descrição</h2>
 
-          <p>
-            Opa!Fala ae, nós somos a Dual Pixel Perfection Studio, ou se preferir DPP.Um studio indie de criação de jogos feito por brasileiros, nosso time trabalha remotamente para transformar sonhos em realidade utilizando a criação de jogos.Nosso objetivo todos os dias e oferecer para os nossos jogadores, jogos visualmente criativos e deslumbrantes, com grande qualidade técnica, e o mais importante com a diversão garantida a todos os jogadores.
-            A Dual Pixel Perfection é construída com muito carinho, dedicação e força de vontade!!
-          </p>
+            <p>
+              Opa! Fala ae, nós somos a Dual Pixel Perfection Studio, ou se preferir DPP. Um studio indie de criação de jogos feito por brasileiros, nosso time trabalha remotamente para transformar sonhos em realidade utilizando a criação de jogos. Nosso objetivo todos os dias e oferecer para os nossos jogadores, jogos visualmente criativos e deslumbrantes, com grande qualidade técnica, e o mais importante com a diversão garantida a todos os jogadores.
+              A Dual Pixel Perfection é construída com muito carinho, dedicação e força de vontade!
+            </p>
 
-          <Image  src={PixelGif} width={200} height={200} alt="Pixel" />
+            <Image  src={PixelGif} width={100} height={200} alt="Pixel" />
+          </div>
         </Description>
 
         <Illustrations>
