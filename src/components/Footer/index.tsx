@@ -20,17 +20,17 @@ export const Footer: React.FC  = () => {
 
           <div>
             <li>
-              <a href="#">
+              <a href="https://discord.gg/xGRK5CbDe9" >
                 <Image src={DiscordLogo} width={36} height={36} alt="Discord" />
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://github.com/Dual-Pixel-Perfection">
                 <Image src={GithubLogo} width={36} height={36} alt="Github"/>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://www.instagram.com/dualpixelperfetion/">
                 <Image src={InstagramLogo} width={36} height={36} alt="Instagram"/>
               </a>
             </li>

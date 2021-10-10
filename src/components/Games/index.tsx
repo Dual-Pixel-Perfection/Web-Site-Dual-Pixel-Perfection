@@ -7,7 +7,7 @@ export const Games: React.FC = () => {
   return (
     <Container>
       <Header>
-        <h1>JOGOS</h1>
+        <h1 id="jogos">JOGOS</h1>
       </Header>
       {
       //  <GamesDashBoard>
@@ -24,7 +24,7 @@ export const Games: React.FC = () => {
         <div>
           <p>Por enquanto não há atualização dos nossos jogos, mas nosso time de desenvolvedores esta trabalhando em novos games</p>
           <p>Em breve teremos novos jogos para toda a comunidade.</p><br/>
-          <p>Receba novas atualizações em tempo real no nosso <a href="" >servidor do Discord</a></p>
+          <p>Receba novas atualizações em tempo real no nosso <a href="https://discord.gg/xGRK5CbDe9" >servidor do Discord</a></p>
         </div>
       </Info>
       

@@ -19,8 +19,6 @@ const Home: NextPage = () => {
       <SideBar />
       <Main />
 
-      <Welcome />
-
       <About />
 
       <Games />

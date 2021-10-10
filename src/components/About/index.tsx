@@ -3,12 +3,13 @@ import Image from 'next/image';
 
 import { AboutDiv, Header, Description,Illustrations, Main } from './styles';
 import PixelGif from '../../../public/assets/pixel.gif';
+import GameScreen from '../../../public/assets/game-screen.png';
 
 export const About: React.FC  = () => {
   return (
     <AboutDiv>
       <Header>
-        <h1>SOBRE</h1>
+        <h1 id="sobre" >SOBRE</h1>
       </Header>
       
       <Main>
@@ -26,7 +27,9 @@ export const About: React.FC  = () => {
         </Description>
 
         <Illustrations>
-          <div />
+          <div>
+            <Image src={GameScreen} alt="Game screen" />
+          </div>
         </Illustrations>
       </Main>
     </AboutDiv>

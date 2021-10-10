@@ -59,9 +59,11 @@ export const Contact = styled.div`
 
 export const PropSite = styled.div`
   border-top: 1px solid var(--darked);
+
   text-align: center;
   p {
     color: #fff;
     padding: 0.5rem 0;
+    margin: 0;
   }
 `;
