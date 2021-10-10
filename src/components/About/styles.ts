@@ -20,18 +20,17 @@ export const Header = styled.header`
 `;
 
 export const Main = styled.div`
-  width: 80%;
   display: grid;
-  grid-template-columns: 1fr 1.5fr;
+  grid-template-columns: 1fr 2fr;
   gap: 7rem;
   align-items: center;
-  margin: 3rem auto;
+  margin: 3rem 7rem;
 `;
 
 export const Description = styled.aside`
-  div {
-    padding: 0 2rem;
-  }
+  padding: 0 2rem;
+  display: grid;
+
   h2 {
     color: #fff;
     text-align: center;
@@ -40,17 +39,20 @@ export const Description = styled.aside`
   }
 
   p {
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 1.2rem;
     color: var(--gray);
     text-align: justify;
+  }
+
+  div {
+    margin-left: 2rem;
   }
 `;
 
 export const Illustrations = styled.aside`
   div {
-    width: 50rem;
-    height: 28rem;
+    width: 100%;
+    height: 420px;
     background: var(--gray);
     box-shadow: 8px 10px 10px 0 #000;
   }
