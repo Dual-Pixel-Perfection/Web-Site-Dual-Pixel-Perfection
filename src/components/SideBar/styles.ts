@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const SideBars = styled.div`
   height: 90px;
@@ -31,16 +31,17 @@ export const Navigation = styled.div`
   a {
     padding: 6px;
     color: var(--gray);
-    font-size: 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
     cursor: pointer;
     transition: 0.3s;
   }
   a:after {
     content: "";
     display: block;
-    height: 5px;
+    height: 3px;
     width: 100%;
-    top: 60px;
+    top: 55px;
     left: 50%;
     position: absolute;
     -webkit-transform: translateX(-50%);
@@ -52,11 +53,10 @@ export const Navigation = styled.div`
 
   a:hover {
     color: var(--blue-dark-4);
-
   }
-   a:hover:after {
-     opacity: 1;
-   }
+  a:hover:after {
+    opacity: 1;
+  }
 `;
 
 export const SocialMedia = styled.div`

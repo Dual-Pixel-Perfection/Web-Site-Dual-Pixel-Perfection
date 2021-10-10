@@ -5,6 +5,9 @@ import { Main } from '../components/Main';
 import { SideBar } from '../components/SideBar';
 import { About } from '../components/About';
 import {Container} from '../styles/pages';
+import { Welcome } from '../components/Welcome';
+import { Games } from '../components/Games';
+import { Footer } from '../components/Footer';
 
 const Home: NextPage = () => {
   return (
@@ -15,7 +18,12 @@ const Home: NextPage = () => {
       
       <SideBar />
       <Main />
+
       <About />
+
+      <Games />
+
+      <Footer />
 
     </Container>
   )

@@ -13,8 +13,7 @@ export const Main: React.FC = () => {
       />
       <Description>
         <h1>
-          <strong>DUAL PIXEL PERFECTION</strong><br/>
-          Estúdio de criação de jogos
+          DUAL PIXEL PERFECTION
         </h1>
         <p>
           Mini empresa de criação de games 2D criada para tornar sonhos em realidade usando a mágica para programação de jogos.

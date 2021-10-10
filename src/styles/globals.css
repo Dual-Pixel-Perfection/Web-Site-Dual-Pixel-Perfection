@@ -18,7 +18,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Anton, sans-serif;
+  font-family: Roboto, sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {

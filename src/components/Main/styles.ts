@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
@@ -17,15 +17,12 @@ export const Description = styled.div`
 
   h1 {
     color: var(--blue);
-    font-size: 1.75rem;
-
-    strong {
-      font-size: 2rem;
-    }
+    font-size: 2rem;
   }
 
-  p{
+  p {
     color: var(--gray);
     font-size: 1.2rem;
+    font-weight: 500;
   }
 `;
