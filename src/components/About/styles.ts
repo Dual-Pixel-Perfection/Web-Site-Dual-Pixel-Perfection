@@ -1,8 +1,8 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const AboutDiv = styled.div`
   width: 100%;
-  height: 800px;
+  height: 100vh;
   background: var(--darked);
 `;
 
@@ -10,7 +10,7 @@ export const Header = styled.header`
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient( #000, #141414);
+  background: linear-gradient(#000, #141414);
 
   h1 {
     color: #fff;
@@ -40,7 +40,8 @@ export const Description = styled.aside`
   }
 
   p {
-    font-size: 1.15rem;
+    font-size: 1rem;
+    font-weight: 500;
     color: var(--gray);
     text-align: justify;
   }
