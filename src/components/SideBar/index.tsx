@@ -33,22 +33,22 @@ export const SideBar: React.FC = () => {
         <SocialMedia>
           <li>
             <a href="https://discord.gg/xGRK5CbDe9" >
-              <Image src={DiscordLogo} width={36} height={36} alt="Discord" />
+              <Image src={DiscordLogo} width={30} height={30} alt="Discord" />
             </a>
           </li>
           <li>
             <a href="https://github.com/Dual-Pixel-Perfection">
-              <Image src={GithubLogo} width={36} height={36} alt="Github"/>
+              <Image src={GithubLogo} width={30} height={30} alt="Github"/>
             </a>
           </li>
           <li>
             <a href="https://www.instagram.com/dualpixelperfetion/">
-              <Image src={InstagramLogo} width={36} height={36} alt="Instagram"/>
+              <Image src={InstagramLogo} width={30} height={30} alt="Instagram"/>
             </a>
           </li>
           <li>
             <a href="#">
-              <Image src={TwitterLogo} width={36} height={36} alt="Twitter"/>
+              <Image src={TwitterLogo} width={30} height={30} alt="Twitter"/>
             </a>
           </li>
         </SocialMedia>

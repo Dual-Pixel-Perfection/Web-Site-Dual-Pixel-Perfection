@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SideBars = styled.div`
-  height: 90px;
+  height: 65px;
   background: var(--dark-gray);
   top: 0;
   display: flex;
@@ -19,20 +19,19 @@ export const Container = styled.div`
 
 export const Navigation = styled.div`
   display: flex;
-  height: 90px;
+  height: 65px;
   align-items: center;
 
   li {
     list-style: none;
     position: relative;
-    margin-left: 60px;
+    margin-left: 3rem;
   }
 
   a {
     padding: 6px;
     color: var(--gray);
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1rem;
     cursor: pointer;
     transition: 0.3s;
   }
@@ -41,7 +40,7 @@ export const Navigation = styled.div`
     display: block;
     height: 3px;
     width: 100%;
-    top: 55px;
+    top: 35px;
     left: 50%;
     position: absolute;
     -webkit-transform: translateX(-50%);
@@ -62,7 +61,7 @@ export const Navigation = styled.div`
 export const SocialMedia = styled.div`
   display: flex;
   align-items: center;
-  height: 90px;
+  height: 65px;
 
   li {
     margin-left: 1rem;

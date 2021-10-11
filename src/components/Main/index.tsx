@@ -8,8 +8,8 @@ export const Main: React.FC = () => {
     <Container>
       <Image
         src={GifLogo}
-        width={1280}
-        height={720}
+        width={1060}
+        height={600}
       />
       <Description>
         <h1>

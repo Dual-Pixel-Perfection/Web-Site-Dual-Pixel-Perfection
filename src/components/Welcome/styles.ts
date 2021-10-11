@@ -14,6 +14,7 @@ export const Header = styled.header`
 
   h1 {
     color: #fff;
+    font-size: 1.5rem;
     border-bottom: 5px solid var(--blue-dark-4);
     padding: 0 1rem;
     margin-top: 3rem;

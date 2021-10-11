@@ -14,6 +14,7 @@ export const Header = styled.header`
 
   h1 {
     color: #fff;
+    font-size: 1.5rem;
     border-bottom: 5px solid var(--blue-dark-4);
     padding: 0 1rem;
   }
@@ -24,11 +25,10 @@ export const Main = styled.div`
   grid-template-columns: 1fr 2fr;
   gap: 7rem;
   align-items: center;
-  margin: 3rem 7rem;
+  margin: 1rem 5rem;
 `;
 
 export const Description = styled.aside`
-  padding: 0 2rem;
   display: grid;
 
   h2 {
@@ -39,7 +39,7 @@ export const Description = styled.aside`
   }
 
   p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--gray);
     text-align: justify;
   }
